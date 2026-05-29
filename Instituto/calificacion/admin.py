@@ -10,8 +10,8 @@ class RetroalimentacionAdmin(admin.ModelAdmin):
     # Campos visibles en la lista del admin
     list_display = (
         'id',
-        'asignacion',
-        'profesor',
+        # 'asignacion',
+        # 'profesor',
         'fecha_creacion'
     )
 
@@ -27,6 +27,6 @@ class RetroalimentacionAdmin(admin.ModelAdmin):
  
      # Optimiza consultas relacionadas
     list_select_related = (
-    'asignacion',
-    'profesor',
+    # 'asignacion',
+    # 'profesor',
 )
