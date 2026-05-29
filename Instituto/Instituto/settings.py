@@ -41,6 +41,12 @@ INSTALLED_APPS = [
     "academico",
     "examen",
     "calificacion",
+    "profesor",
+    "alumno",
+    "asignatura",
+    "cursada",
+    "pregunta",
+    "respuesta",
 ]
 
 MIDDLEWARE = [
