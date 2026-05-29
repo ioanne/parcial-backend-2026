@@ -9,8 +9,8 @@ class AsignacionExamen(models.Model):
     )
     observaciones = models.TextField(blank=True)
 
-    # examen = models.ForeignKey('core.Examen', on_delete=models.CASCADE)
-    # alumno = models.ForeignKey('core.Alumno', on_delete=models.CASCADE)
+    # examen = models.ForeignKey('examen.Examen', on_delete=models.CASCADE)
+    # alumno = models.ForeignKey('alumno.Alumno', on_delete=models.CASCADE)
 
     def __str__(self):
         return f"Asignacion #{self.id} - Nota: {self.calificacion}"  # Create your models here.
