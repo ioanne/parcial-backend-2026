@@ -1,5 +1,7 @@
 from django.contrib import admin
 
+from .models import AsignacionExamen
+
 # Register your models here.
 from .models import Retroalimentacion
 
@@ -30,3 +32,5 @@ class RetroalimentacionAdmin(admin.ModelAdmin):
     # 'asignacion',
     # 'profesor',
 )
+
+admin.site.register(AsignacionExamen)
